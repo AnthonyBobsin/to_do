@@ -3,8 +3,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml"> 
 <head> 
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
-    <link rel="stylesheet" href="../public/stylesheets/bootstrap.min.css" />
-    <link rel="stylesheet" href="../public/stylesheets/output.css" />
+    <link rel="stylesheet" href="./public/stylesheets/bootstrap.min.css" />
+    <link rel="stylesheet" href="./public/stylesheets/output.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
+	<script src="./public/scripts/bootstrap.min.js"></script> 
+	<script src="./public/scripts/scripts.js"></script>
     <title>To Do List</title>
 
 </head> 
@@ -94,10 +97,6 @@
 </div>
 </div><!--end row -->
 </div><!--end content -->
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
-<script src="../public/scripts/bootstrap.min.js"></script> 
-<script src="../public/scripts/scripts.js"></script>
 
 </body> 
 </html>
