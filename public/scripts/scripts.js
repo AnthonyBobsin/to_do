@@ -19,9 +19,19 @@ $(function() {
 	});
 
 	//Add New Item button functionality. 
-	/*$('#tabs li').click(function() {
+	$('#tabs li').click(function() {
+		$('#tabs li').removeClass('selected');
+		$(this).addClass('selected');
+		if($(this).attr('id') == 'newItemTab') { 
+            $('#todo').css('display', 'none'); 
+            $('#addNewEntry').css('display', 'block');           
+        } else { 
+            $('#addNewEntry').css('display', 'none'); 
+            $('#todo').css('display', 'block'); 
+        } 
+        return false;
+	});
 
-	})*/
 
 
     // Delete anchor tag clicked 
