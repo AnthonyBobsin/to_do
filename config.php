@@ -1,8 +1,6 @@
 <?php
 
 	//Heroku
-	$url = parse_url(getenv("CLEARDB_DATABASE_URL"));
-
 	$db_host = "us-cdbr-iron-east-01.cleardb.net";
 	$db_user = "b347ec276fb80c";
 	$db_pass = "ac01ccff";
