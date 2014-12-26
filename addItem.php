@@ -9,7 +9,7 @@
 		if ($stmt = $db->mysql->prepare($query)) {
 			$stmt->bind_param('ss', $_POST['title'], $_POST['description']);
 			$stmt->execute();
-			header('location: index.php');
+			header('location: ./');
 		}
 		else {
 			die($db->mysql->error);
